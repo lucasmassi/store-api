@@ -1,0 +1,71 @@
+Arguments: 
+  /usr/bin/node /usr/share/yarn/bin/yarn.js install
+
+PATH: 
+  /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+
+Yarn version: 
+  1.21.1
+
+Node version: 
+  13.5.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  SyntaxError: /home/massi/Projetos/payment-api/package.json: Unexpected token } in JSON at position 1014
+      at JSON.parse (<anonymous>)
+      at /usr/share/yarn/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/usr/share/yarn/lib/cli.js:310:30)
+      at /usr/share/yarn/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "orbita-backend",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "dev": "nodemon src/server.js",
+      "build": "nodemon src/server.js"
+    },
+    "author": "Lucas Massi",
+    "license": "ISC",
+    "dependencies": {
+      "bcryptjs": "^2.4.3",
+      "cors": "^2.8.5",
+      "cross-env": "^6.0.0",
+      "date-fns": "^2.2.1",
+      "dotenv": "^8.1.0",
+      "express": "^4.17.1",
+      "jsonwebtoken": "^8.5.1",
+      "pg": "^7.12.1",
+      "pg-hstore": "^2.3.3",
+      "sequelize": "^5.18.4",
+      "youch": "^2.0.10",
+      "yup": "^0.27.0"
+    },
+    "devDependencies": {
+      "@sucrase/jest-plugin": "^2.0.0",
+      "@types/jest": "^24.0.18",
+      "babel-eslint": "^10.0.3",
+      "eslint": "^6.4.0",
+      "eslint-config-airbnb-base": "^14.0.0",
+      "eslint-config-prettier": "^6.3.0",
+      "eslint-plugin-import": "^2.18.2",
+      "eslint-plugin-prettier": "^3.1.0",
+      "factory-girl": "^5.0.4",
+      "nodemon": "^1.19.2",
+      "prettier": "^1.18.2",
+      "sequelize-cli": "^5.5.1",
+      "sucrase": "^3.10.1",
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
