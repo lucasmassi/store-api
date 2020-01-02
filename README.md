@@ -1,3 +1,3 @@
 # Store API
-CRUD - Users, Products
-Auth and Payment Integrated
+- CRUD - Users, Products
+- Authentication and Payment Integrated
